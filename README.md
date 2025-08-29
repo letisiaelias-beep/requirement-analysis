@@ -90,3 +90,71 @@ Non-functional requirements describe **how the system should perform** - quality
 - **Usability & Accessibility:** Responsive UI that works on mobile and desktop; follows basic accessibility guidelines (e.g., keyboard navigation).
 - **Data Retention & Privacy:** User data retained per privacy policy; GDPR/Local regulation compliance where applicable.
 --------
+
+## Use Case Diagrams
+
+**What is a Use Case Diagram?**  
+A Use Case Diagram shows the interactions between **actors** (users or external systems) and the system’s **use cases** (functionalities). It helps visualize who does what and the scope of the system.
+
+**Benefits**
+- Quickly communicates system scope to stakeholders.
+- Shows actor–system interactions and main features.
+- Useful during requirement elicitation and validation.
+
+**Actors & Use Cases (for Booking Management System)**
+- **Actors:** Guest/User, Host, Admin, Payment Gateway
+- **Use Cases:** Register / Login, Search Properties, View Property Details, Book Property, Make Payment, Manage Bookings, Add/Edit Property (Host), Manage Users (Admin), Send Notifications
+
+Below is the diagram for the booking system. Save/export it as `alx-booking-uc.png` and place it in the repository root. Then include the image as shown.
+
+![Use Case Diagram](alx-booking-uc.png)
+
+
+
+
+--------
+## Acceptance Criteria
+
+**What are Acceptance Criteria?**  
+Acceptance Criteria are specific, measurable conditions that a feature must satisfy to be considered complete and acceptable to stakeholders. They turn requirements into testable statements.
+
+**Why Acceptance Criteria matter**
+- Make requirements testable and unambiguous.
+- Provide a clear definition of done for the team.
+- Help QA create meaningful test cases and acceptance tests.
+- Reduce misunderstandings between stakeholders and developers.
+
+**Example — Checkout Feature (Booking Management System)**
+
+**User Story:** As a guest, I want to complete a booking purchase so that I can reserve a property for selected dates.
+
+**Acceptance Criteria (list):**
+1. **Successful Booking and Payment**
+   - Given a guest has selected a property and valid dates,
+   - When they provide valid payment details and confirm,
+   - Then the booking is created, payment is processed, and the guest receives a confirmation email with booking details.
+
+2. **Payment Failure Handling**
+   - Given payment fails due to declined card or gateway error,
+   - When the guest tries to confirm payment,
+   - Then the booking is not created and a clear error message is shown with options to retry or use another payment method.
+
+3. **Double Booking Prevention**
+   - Given another guest has just booked the same property for overlapping dates,
+   - When a guest attempts to book overlapping dates,
+   - Then the system prevents the booking and informs the guest that dates are no longer available.
+
+4. **Data Validation**
+   - All required fields (name, payment info, dates) must be validated on client and server side; invalid inputs block submission with user-friendly messages.
+
+**Gherkin-style scenario (example)**
+```gherkin
+Scenario: Successful checkout and booking confirmation
+  Given the guest is logged in and has selected property "Seaside Villa" for 2025-09-10 to 2025-09-12
+  And the guest provides valid payment details
+  When the guest confirms payment
+  Then the system should process the payment successfully
+  And a booking record should be created
+  And an email confirmation should be sent to the guest
+
+-----------
