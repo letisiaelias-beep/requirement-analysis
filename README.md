@@ -45,4 +45,22 @@ Requirement Analysis is critical because:
 
 -------------
 
+## Key Activities in Requirement Analysis
+
+The main activities include:
+
+- **Requirement Gathering (also called Elicitation):**  
+  Collecting stakeholder needs using interviews, surveys, workshops, observation, and reviewing existing systems.
+
+- **Requirement Elicitation (refinement):**  
+  Refining and exploring gathered ideas through brainstorming, prototyping, and scenarios to expose hidden assumptions and clarify needs.
+
+- **Requirement Documentation:**  
+  Writing clear, structured requirements (user stories, use cases, SRS items) that are unambiguous and testable.
+
+- **Requirement Analysis and Modeling:**  
+  Analyzing requirements to identify conflicts, dependencies and modeling behaviour with diagrams (use cases, activity diagrams, flowcharts).
+
+- **Requirement Validation:**  
+  Reviewing and validating requirements with stakeholders to ensure accuracy, completeness, and feasibility (walkthroughs, reviews, acceptance tests).
 
