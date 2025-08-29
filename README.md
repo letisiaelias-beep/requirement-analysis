@@ -22,4 +22,27 @@ The goal of this repository is to:
 ### Where it fits
 Requirement Analysis sits early in the SDLC after idea/feasibility and before design/implementation. Its outputs (user stories, use cases, specifications) feed directly into design and development.
 
+------------
+
+## Why is Requirement Analysis Important?
+
+Requirement Analysis is critical because:
+
+1. **It Reduces Risk and Cost**  
+   Discovering unclear or conflicting requirements early reduces rework and development cost.
+
+2. **Ensures Alignment with Business Goals**  
+   Proper analysis ensures the delivered software meets stakeholder needs and business objectives.
+
+3. **Improves Project Planning and Prioritization**  
+   Clear requirements help teams estimate effort, prioritize features, and allocate resources effectively.
+
+4. **Enhances Product Quality**  
+   When requirements include measurable acceptance criteria, testing becomes objective and thorough.
+
+5. **Prevents Scope Creep**  
+   Well documented requirements define what is in scope and out of scope, helping control changes.
+
+-------------
+
 
