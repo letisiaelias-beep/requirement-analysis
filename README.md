@@ -22,4 +22,4 @@ The goal of this repository is to:
 ### Where it fits
 Requirement Analysis sits early in the SDLC after idea/feasibility and before design/implementation. Its outputs (user stories, use cases, specifications) feed directly into design and development.
 
---------
+
