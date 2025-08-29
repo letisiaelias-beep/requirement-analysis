@@ -64,3 +64,29 @@ The main activities include:
 - **Requirement Validation:**  
   Reviewing and validating requirements with stakeholders to ensure accuracy, completeness, and feasibility (walkthroughs, reviews, acceptance tests).
 
+-------------
+
+## Types of Requirements
+
+### Functional Requirements
+Functional requirements describe **what the system should do** - the features and functions the system must provide.
+
+**Examples for a Booking Management System:**
+- **User Registration & Profiles:** Users can create accounts, edit profiles, and reset passwords.
+- **Property Search & Filters:** Users can search properties by location, date, price range, and amenities.
+- **Booking/Reservation:** Users can select dates, reserve a property, and receive confirmation.
+- **Payment Processing:** Securely process payments (credit card, mobile money, or other gateways).
+- **Booking Management:** Users can view, modify, and cancel bookings; hosts can manage availability and bookings.
+- **Notifications:** Email/SMS notifications for booking confirmations, cancellations, and reminders.
+
+### Non-Functional Requirements
+Non-functional requirements describe **how the system should perform** - quality attributes like performance, security, scalability, and usability.
+
+**Examples for a Booking Management System:**
+- **Performance:** Search results should return within **2 seconds** for 95% of queries.
+- **Availability:** System uptime ≥ **99.9%**.
+- **Scalability:** Support up to **5,000 concurrent users** during peak periods (example metric).
+- **Security:** All user passwords must be stored hashed; payment data must comply with PCI-DSS best practices.
+- **Usability & Accessibility:** Responsive UI that works on mobile and desktop; follows basic accessibility guidelines (e.g., keyboard navigation).
+- **Data Retention & Privacy:** User data retained per privacy policy; GDPR/Local regulation compliance where applicable.
+--------
