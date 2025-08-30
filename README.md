@@ -113,16 +113,16 @@ A Use Case Diagram shows the interactions between **actors** (users or external 
 --------
 ## Acceptance Criteria
 
-**What are Acceptance Criteria?**  
+### What are Acceptance Criteria?  
 Acceptance Criteria are specific, measurable conditions that a feature must satisfy to be considered complete and acceptable to stakeholders. They turn requirements into testable statements.
 
-**Why Acceptance Criteria matter**
+### Importance of Acceptance Criteria
 - Make requirements testable and unambiguous.
 - Provide a clear definition of done for the team.
 - Help QA create meaningful test cases and acceptance tests.
 - Reduce misunderstandings between stakeholders and developers.
 
-**Example — Checkout Feature (Booking Management System)**
+**Example - Checkout Feature (Booking Management System)**
 
 **User Story:** As a guest, I want to complete a booking purchase so that I can reserve a property for selected dates.
 
