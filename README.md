@@ -105,8 +105,6 @@ A Use Case Diagram shows the interactions between **actors** (users or external 
 - **Actors:** Guest/User, Host, Admin, Payment Gateway
 - **Use Cases:** Register / Login, Search Properties, View Property Details, Book Property, Make Payment, Manage Bookings, Add/Edit Property (Host), Manage Users (Admin), Send Notifications
 
-Below is the diagram for the booking system. Save/export it as `alx-booking-uc.png` and place it in the repository root. Then include the image as shown.
-
 ![Use Case Diagram](alx-booking-uc.png)
 
 
